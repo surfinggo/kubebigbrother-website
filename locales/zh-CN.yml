@@ -8,17 +8,17 @@ button:
 docs: 文档
 docs-short: 文档
 index:
-  desc: 在 Kubebigbrother，监控集群中发生的任何事情。
+  desc: 在 Kubebigbrother，监控集群中发生的任何事件。
   desc-events: 基于 Kubernetes informers，监控任何 Kubernetes 原生事件。
   desc-crd: 用和默认资源一样的方式对待自定义资源类型。
-  desc-watch: 老大哥只是看看，不会修改任何东西。
+  desc-watch: 只是看看，不会修改任何东西。
   desc-notification: 在感兴趣的事件发生时收到通知。
   desc-channels: 发送通知到 Slack，Telegram，钉钉，或者 HTTP webhook，或者...
   desc-brother: 老大哥在看着你，对，现在。
   feat-events: 云原生
   feat-crd: CRD 支持
   feat-watch: 只是看看
-  feat-notification: 收到通知
+  feat-notification: 接收通知
   feat-channels: 丰富的频道支持
   feat-brother: 有关老大哥
   get-started: 开始使用

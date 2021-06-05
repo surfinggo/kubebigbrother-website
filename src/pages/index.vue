@@ -21,7 +21,7 @@ const {t} = useI18n()
          class="btn btn-xl mr-2">{{ t('index.live-demo') }}</a>
       <router-link to="/docs" class="btn btn-xl">{{ t('index.get-started') }}</router-link>
     </div>
-    <div class="grid grid-cols-12 gap-3 mb-16 px-5 md:px-5 lg:px-10">
+    <div class="grid grid-cols-12 gap-5 mb-16 px-5 md:px-5 lg:px-10">
       <div class="feature">
         <div class="title"><span class="icon">☸️</span>{{ t('index.feat-events') }}</div>
         <div class="desc">{{ t('index.desc-events') }}</div>
@@ -47,7 +47,6 @@ const {t} = useI18n()
         <div class="desc">{{ t('index.desc-brother') }}</div>
       </div>
     </div>
-    <div class="mb-5 text-left">{{ t('index.screen-shots') }}</div>
     <div class="fcc mb-5">
       <div class="">
         <img src="/screen-shot.png" class="rounded-lg"/>
@@ -79,3 +78,9 @@ const {t} = useI18n()
   @apply text-gray-500 dark:text-gray-500;
 }
 </style>
+
+
+<route lang="yaml">
+meta:
+  layout: home
+</route>

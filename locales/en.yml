@@ -14,7 +14,7 @@ index:
   desc-watch: Just watch events, nothing is touched.
   desc-notification: Get noticed when anything you are interested happens.
   desc-channels: Send notifications to Slack, Telegram, Dingtalk, or HTTP webhooks, or...
-  desc-brother: Big brother is watching you, now.
+  desc-brother: Big brother is watching you.
   feat-events: Cloud Native
   feat-crd: CRD Support
   feat-watch: Just Watch

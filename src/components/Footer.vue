@@ -5,7 +5,7 @@ const {t} = useI18n()
 </script>
 
 <template>
-  <nav class="text-xl text-center mt-16 pb-8">
+  <nav class="w-full text-xl text-center mt-16 pb-8">
     <a class="mx-2" href="https://kubebigbrother.spongeprojects.com/" target="_blank"
        title="Kubebigbrother">
       <carbon-campsite/>

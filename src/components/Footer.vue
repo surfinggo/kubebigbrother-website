@@ -1,33 +1,24 @@
-<script setup lang="ts">
-import { useI18n } from 'vue-i18n'
-import { isDark, toggleDark } from '~/logic'
+<script setup lang="ts" xmlns="http://www.w3.org/1999/html">
+import {useI18n} from 'vue-i18n'
 
-const { t, availableLocales, locale } = useI18n()
-
-const toggleLocales = () => {
-  // change to some real logic
-  const locales = availableLocales
-  locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-}
+const {t} = useI18n()
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
-    <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <carbon-campsite />
-    </router-link>
-
-    <a class="icon-btn mx-2" :title="t('button.toggle_dark')" @click="toggleDark">
-      <carbon-moon v-if="isDark" />
-      <carbon-sun v-else />
+  <nav class="text-xl text-center mt-16 pb-8">
+    <a class="mx-2" href="https://kubebigbrother.spongeprojects.com/" target="_blank"
+       title="Kubebigbrother">
+      <carbon-campsite/>
     </a>
 
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
-      <carbon-language />
+    <a class="mx-2" href="https://twitter.com/wbsnail" target="_blank"
+       title="Twitter">
+      <carbon-logo-twitter/>
     </a>
 
-    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank" title="GitHub">
-      <carbon-logo-github />
+    <a class="mx-2" href="https://github.com/spongeprojects/kubebigbrother" target="_blank"
+       title="GitHub">
+      <carbon-logo-github/>
     </a>
   </nav>
 </template>

@@ -5,8 +5,13 @@ button:
   home: Home
   toggle_dark: Toggle dark mode
   toggle_langs: Change languages
-docs: Documentation
+docs-long: Documentation
 docs-short: Docs
+docs:
+  get-started: Get Started
+  installation: Installation
+  channels: Channels
+  resources: Resources
 index:
   desc: The Platform that Watches Everything Happens in Your Cluster.
   desc-events: Built upon Kubernetes informers, watch Kubernetes native events.
@@ -20,7 +25,7 @@ index:
   feat-watch: Just Watch
   feat-notification: Get Noticed
   feat-channels: Rich Channels Support
-  feat-brother: Big Brother
+  feat-brother: About Big Brother
   get-started: Get started
   live-demo: Live demo
   screen-shots: "Screen Shots:"

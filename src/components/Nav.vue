@@ -15,7 +15,8 @@ const toggleLocales = () => {
 
 <template>
   <nav
-      class="fcb w-full border-b border-gray-200 dark:border-gray-800 mb-16 sm:mb-20 -mx-4 px-4 sm:mx-0 sm:px-0 transition-colors duration-200">
+      class="fcb w-full h-16 border-b border-gray-200 dark:border-gray-800
+      px-4 transition-colors duration-200">
     <div class="max-w-48 sm:max-w-62">
       <router-link to="/">
         <img src="/icon-text-right-bg-transparent.png" class=""/>
@@ -26,7 +27,7 @@ const toggleLocales = () => {
           class="font-medium py-4"
           to="/docs">
         <span class="sm:hidden">{{ t('docs-short') }}</span>
-        <span class="hidden sm:inline">{{ t('docs') }}</span>
+        <span class="hidden sm:inline">{{ t('docs-long') }}</span>
       </router-link>
       <span class="item" :title="t('button.toggle_dark')" @click="toggleDark">
           <carbon-moon v-if="isDark"/>

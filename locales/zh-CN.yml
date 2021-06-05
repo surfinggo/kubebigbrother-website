@@ -5,8 +5,13 @@ button:
   home: 首页
   toggle_dark: 切换深色模式
   toggle_langs: 切换语言
-docs: 文档
+docs-long: 文档
 docs-short: 文档
+docs:
+  get-started: 开始
+  installation: 安装
+  channels: 频道
+  resources: 资源
 index:
   desc: 在 Kubebigbrother，监控集群中发生的任何事件。
   desc-events: 基于 Kubernetes informers，监控任何 Kubernetes 原生事件。

@@ -6,6 +6,6 @@ const {t} = useI18n()
 
 <template>
   <div class="">
-    Get started
+    Resources
   </div>
 </template>

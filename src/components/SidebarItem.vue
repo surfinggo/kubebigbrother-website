@@ -24,7 +24,7 @@ li {
 }
 
 li a {
-  @apply block p-2 font-bold rounded !hover:dark:bg-gray-700 !hover:bg-gray-300;
+  @apply block p-2 font-bold rounded !hover:dark:bg-gray-700 !hover:bg-gray-300 transition-colors duration-200;
 }
 
 li a.active {

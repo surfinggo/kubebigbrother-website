@@ -5,7 +5,7 @@ const {t} = useI18n()
 </script>
 
 <template>
-  <div class="">
-    Installation
+  <div class="my-6">
+    <p>{{ t('installation.p1') }}</p>
   </div>
 </template>

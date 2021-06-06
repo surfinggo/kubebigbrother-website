@@ -29,4 +29,13 @@ index:
   get-started: Get started
   live-demo: Live demo
   screen-shots: "Screen Shots:"
+get-started:
+  p1: Kubebigbrother is a platform that monitors and records everything happens in the cluster.
+  p2: Please help me to improve the documentation.
+installation:
+  p1: Documentation work in progress.
+channels:
+  p1: Documentation work in progress.
+resources:
+  p1: Documentation work in progress.
 not-found: Not found

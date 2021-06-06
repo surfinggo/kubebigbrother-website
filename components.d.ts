@@ -4,7 +4,10 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Nav: typeof import('./src/components/Nav.vue')['default']
     README: typeof import('./src/components/README.md')['default']
+    Sidebar: typeof import('./src/components/Sidebar.vue')['default']
+    SidebarItem: typeof import('./src/components/SidebarItem.vue')['default']
   }
 }
 

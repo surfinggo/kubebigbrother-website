@@ -7,10 +7,10 @@ const {t} = useI18n()
 <template>
   <div class="p-4 sm:w-72 mb-8 sm:mb-0 border-b sm:border-r border-gray-200 dark:border-gray-800">
     <ul>
-      <SidebarItem to="/docs">{{ t('docs.get-started') }}</SidebarItem>
-      <SidebarItem to="/installation">{{ t('docs.installation') }}</SidebarItem>
-      <SidebarItem to="/channels">{{ t('docs.channels') }}</SidebarItem>
-      <SidebarItem to="/resources">{{ t('docs.resources') }}</SidebarItem>
+      <SidebarItem to="/docs"><span class="mr-2">🤖</span>{{ t('docs.get-started') }}</SidebarItem>
+      <SidebarItem to="/installation"><span class="mr-2">🔧</span>{{ t('docs.installation') }}</SidebarItem>
+      <SidebarItem to="/channels"><span class="mr-2">💌</span>{{ t('docs.channels') }}</SidebarItem>
+      <SidebarItem to="/resources"><span class="mr-2">☸️</span>{{ t('docs.resources') }}</SidebarItem>
     </ul>
   </div>
 </template>

@@ -29,4 +29,13 @@ index:
   get-started: 开始使用
   live-demo: 在线演示
   screen-shots: 截图：
+get-started:
+  p1: Kubebigbrother 是一个用于监控和记录 Kubernetes 集群事件的平台。
+  p2: 欢迎帮助我完善文档。
+installation:
+  p1: 文档编写中。
+channels:
+  p1: 文档编写中。
+resources:
+  p1: 文档编写中。  
 not-found: 未找到页面

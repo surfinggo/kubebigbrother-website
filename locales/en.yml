@@ -4,7 +4,7 @@ button:
   go: GO
   home: Home
   toggle_dark: Toggle dark mode
-  toggle_langs: Change languages
+  toggle_langs: Change language
 docs-long: Documentation
 docs-short: Docs
 docs:
@@ -28,10 +28,10 @@ index:
   feat-brother: About Big Brother
   get-started: Get started
   live-demo: Live demo
-  screen-shots: "Screen Shots:"
+  screen-shots: "Screenshot:"
 get-started:
   p1: Kubebigbrother is a platform that monitors and records everything happens in the cluster.
-  p2: Please help me to improve the documentation.
+  p2: Please help me to improve this documentation.
 installation:
   p1: Documentation work in progress.
 channels:

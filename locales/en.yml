@@ -30,7 +30,7 @@ index:
   live-demo: Live demo
   screen-shots: "Screenshot:"
 get-started:
-  p1: Kubebigbrother is a platform that monitors and records everything happens in the cluster.
+  p1: Kubebigbrother is a platform that monitors and records everything happening in the cluster.
   p2: Please help me to improve this documentation.
 installation:
   p1: Documentation work in progress.

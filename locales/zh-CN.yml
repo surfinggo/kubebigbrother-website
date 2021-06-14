@@ -19,7 +19,7 @@ index:
   desc-watch: 只是看看，不会修改任何东西。
   desc-notification: 在感兴趣的事件发生时收到通知。
   desc-channels: 发送通知到 Slack，Telegram，钉钉，或者 HTTP webhook，或者...
-  desc-brother: 老大哥在看着你，对，现在。
+  desc-brother: 老大哥在看着你。
   feat-events: 云原生
   feat-crd: CRD 支持
   feat-watch: 只是看看

@@ -3,35 +3,35 @@ button:
   back: Back
   go: GO
   home: Home
-  toggle_dark: Toggle dark mode
-  toggle_langs: Change languages
+  toggle_dark: Switch to Dark Mode
+  toggle_langs: Change language
 docs-long: Documentation
 docs-short: Docs
 docs:
   get-started: Get Started
-  installation: Installation
+  installation: Install
   channels: Channels
   resources: Resources
 index:
   desc: The Platform that Watches Everything Happens in Your Cluster.
   desc-events: Built upon Kubernetes informers, watch Kubernetes native events.
   desc-crd: Custom resource definitions are treated just like default resources.
-  desc-watch: Just watch events, nothing is touched.
-  desc-notification: Get noticed when anything you are interested happens.
-  desc-channels: Send notifications to Slack, Telegram, Dingtalk, or HTTP webhooks, or...
+  desc-watch: Just watch, nothing will be modified.
+  desc-notification: Get notifications when something you are interested in happens.
+  desc-channels: Send notifications to Slack, Telegram, Dingtalk, HTTP webhooks, etc.
   desc-brother: Big brother is watching you.
   feat-events: Cloud Native
   feat-crd: CRD Support
   feat-watch: Just Watch
-  feat-notification: Get Noticed
-  feat-channels: Rich Channels Support
-  feat-brother: About Big Brother
+  feat-notification: Get Notifications
+  feat-channels: Full Channel Support
+  feat-brother: About The Big Brother
   get-started: Get started
   live-demo: Live demo
-  screen-shots: "Screen Shots:"
+  screen-shots: "Screenshot:"
 get-started:
-  p1: Kubebigbrother is a platform that monitors and records everything happens in the cluster.
-  p2: Please help me to improve the documentation.
+  p1: Kubebigbrother is a platform that monitors and records everything happening in the cluster.
+  p2: Please help me to improve this documentation.
 installation:
   p1: Documentation work in progress.
 channels:
